@@ -1,0 +1,501 @@
+-- Instances:
+--Game link--
+--https://www.roblox.com/games/4796443083/Daycare-2--
+
+local ScreenGui = Instance.new("ScreenGui")
+local Gui = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Teleports = Instance.new("TextLabel")
+local Daycare = Instance.new("TextButton")
+local Forest = Instance.new("TextButton")
+local Site = Instance.new("TextButton")
+local Bridge = Instance.new("TextButton")
+local Obby = Instance.new("TextButton")
+local Elevator = Instance.new("TextButton")
+local Cave = Instance.new("TextButton")
+local Mineshaft = Instance.new("TextButton")
+local ScreenGui_2 = Instance.new("ScreenGui")
+local Gui_2 = Instance.new("Frame")
+local Label_2 = Instance.new("TextLabel")
+local Extras = Instance.new("TextLabel")
+local Jump = Instance.new("TextButton")
+local Yield = Instance.new("TextButton")
+local Badge = Instance.new("TextButton")
+local Tool = Instance.new("TextButton")
+local ScreenGui_3 = Instance.new("ScreenGui")
+local Gui_3 = Instance.new("Frame")
+local Label_3 = Instance.new("TextLabel")
+local Foods = Instance.new("TextLabel")
+local Pizza = Instance.new("TextButton")
+local Sandwich = Instance.new("TextButton")
+local Chicken = Instance.new("TextButton")
+local Burger = Instance.new("TextButton")
+
+--Gui 1--
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Gui = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Teleports = Instance.new("TextLabel")
+local Daycare = Instance.new("TextButton")
+local Forest = Instance.new("TextButton")
+local Site = Instance.new("TextButton")
+local Bridge = Instance.new("TextButton")
+local Obby = Instance.new("TextButton")
+local Elevator = Instance.new("TextButton")
+local Cave = Instance.new("TextButton")
+local Mineshaft = Instance.new("TextButton")
+local Boys = Instance.new("TextButton")
+local Girls = Instance.new("TextButton")
+local Backyard = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Gui.Name = "Gui"
+Gui.Parent = ScreenGui
+Gui.BackgroundColor3 = Color3.fromRGB(0, 0, 250)
+Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gui.Position = UDim2.new(0.861936688, 0, 0.0176125243, 0)
+Gui.Size = UDim2.new(0, 132, 0, 465)
+Gui.Active = true
+Gui.Draggable = true
+
+Label.Name = "Label"
+Label.Parent = Gui
+Label.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label.Size = UDim2.new(0, 132, 0, 50)
+Label.Font = Enum.Font.Ubuntu
+Label.Text = "Daycare 2 [Story]"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextSize = 14.000
+
+Teleports.Name = "Teleports"
+Teleports.Parent = Gui
+Teleports.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Teleports.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleports.Position = UDim2.new(0, 0, 0.124430805, 0)
+Teleports.Size = UDim2.new(0, 132, 0, 19)
+Teleports.Font = Enum.Font.Ubuntu
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleports.TextSize = 14.000
+
+Daycare.Name = "Daycare"
+Daycare.Parent = Gui
+Daycare.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Daycare.Position = UDim2.new(0, 0, 0.183581084, 0)
+Daycare.Size = UDim2.new(0, 132, 0, 25)
+Daycare.Font = Enum.Font.Ubuntu
+Daycare.Text = "Daycare"
+Daycare.TextColor3 = Color3.fromRGB(0, 0, 0)
+Daycare.TextSize = 14.000
+Daycare.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 4.5, -5.40001488, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Forest.Name = "Forest"
+Forest.Parent = Gui
+Forest.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Forest.Position = UDim2.new(0, 0, 0.253387421, 0)
+Forest.Size = UDim2.new(0, 132, 0, 25)
+Forest.Font = Enum.Font.Ubuntu
+Forest.Text = "Forest"
+Forest.TextColor3 = Color3.fromRGB(0, 0, 0)
+Forest.TextSize = 14.000
+Forest.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-156.182907, 5.10000038, 665.401001, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268)
+end)
+
+
+Site.Name = "Site"
+Site.Parent = Gui
+Site.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Site.Position = UDim2.new(0, 0, 0.325454891, 0)
+Site.Size = UDim2.new(0, 132, 0, 25)
+Site.Font = Enum.Font.Ubuntu
+Site.Text = "Camping SIte"
+Site.TextColor3 = Color3.fromRGB(0, 0, 0)
+Site.TextSize = 14.000
+Site.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(80.2445297, 4.5, 549.056763, 0.087131381, -0, -0.996196866, 0, 1, -0, 0.996196866, 0, 0.087131381)
+end)
+
+Bridge.Name = "Bridge"
+Bridge.Parent = Gui
+Bridge.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Bridge.Position = UDim2.new(0, 0, 0.400238723, 0)
+Bridge.Size = UDim2.new(0, 132, 0, 25)
+Bridge.Font = Enum.Font.Ubuntu
+Bridge.Text = "Bridge"
+Bridge.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bridge.TextSize = 14.000
+Bridge.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(239.854263, 5.50618601, 941.868835, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+
+Obby.Name = "Obby"
+Obby.Parent = Gui
+Obby.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Obby.Position = UDim2.new(0, 0, 0.472537786, 0)
+Obby.Size = UDim2.new(0, 132, 0, 25)
+Obby.Font = Enum.Font.Ubuntu
+Obby.Text = "Mineshaft Obby End"
+Obby.TextColor3 = Color3.fromRGB(0, 0, 0)
+Obby.TextSize = 14.000
+Obby.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-169.236404, 3.79860926, 683.352051, 0.677346885, -1.44014374e-08, -0.735663772, -5.5941114e-09, 1, -2.47267735e-08, 0.735663772, 2.08639879e-08, 0.677346885) 
+end)
+
+Elevator.Name = "Elevator"
+Elevator.Parent = Gui
+Elevator.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Elevator.Position = UDim2.new(0, 0, 0.549215436, 0)
+Elevator.Size = UDim2.new(0, 132, 0, 25)
+Elevator.Font = Enum.Font.Ubuntu
+Elevator.Text = "Elevator"
+Elevator.TextColor3 = Color3.fromRGB(0, 0, 0)
+Elevator.TextSize = 14.000
+Elevator.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(58.2000046, 1, 94.4000092, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+
+Cave.Name = "Cave"
+Cave.Parent = Gui
+Cave.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Cave.Position = UDim2.new(0, 0, 0.6238271, 0)
+Cave.Size = UDim2.new(0, 132, 0, 25)
+Cave.Font = Enum.Font.Ubuntu
+Cave.Text = "Boss Battle Cave"
+Cave.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cave.TextSize = 14.000
+Cave.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-102.200035, -17.4999447, 868.300415, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+Mineshaft.Name = "Mineshaft"
+Mineshaft.Parent = Gui
+Mineshaft.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Mineshaft.Position = UDim2.new(0, 0, 0.702104628, 0)
+Mineshaft.Size = UDim2.new(0, 132, 0, 25)
+Mineshaft.Font = Enum.Font.Ubuntu
+Mineshaft.Text = "Mineshaft"
+Mineshaft.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mineshaft.TextSize = 14.000
+Mineshaft.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1296.56641, 24.8393364, 794.766541, -0.29242146, 0, -0.95628953, 0, 1, 0, 0.95628953, 0, -0.29242146)
+end)
+
+Boys.Name = "Boys"
+Boys.Parent = Gui
+Boys.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Boys.Position = UDim2.new(0, 0, 0.77642858, 0)
+Boys.Size = UDim2.new(0, 132, 0, 25)
+Boys.Font = Enum.Font.Ubuntu
+Boys.Text = "Boys' Bedroom"
+Boys.TextColor3 = Color3.fromRGB(0, 0, 0)
+Boys.TextSize = 14.000
+Boys.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.35500979, 25.6986027, 88.0548096, -0.337595582, -6.7808287e-08, 0.941291273, 1.82233055e-08, 1, 7.85733363e-08, -0.941291273, 4.36794494e-08, -0.337595582)
+end)
+
+Girls.Name = "Girls"
+Girls.Parent = Gui
+Girls.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Girls.Position = UDim2.new(0, 0, 0.854406774, 0)
+Girls.Size = UDim2.new(0, 132, 0, 25)
+Girls.Font = Enum.Font.Ubuntu
+Girls.Text = "Girls' Bedroom"
+Girls.TextColor3 = Color3.fromRGB(0, 0, 0)
+Girls.TextSize = 14.000
+Girls.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.41451454, 25.6986027, 30.8710804, 0.00772518059, -2.54095074e-08, 0.999970138, 1.18376597e-09, 1, 2.54011212e-08, -0.999970138, 9.87502302e-10, 0.00772518059
+	)
+end)
+
+Backyard.Name = "Backyard"
+Backyard.Parent = Gui
+Backyard.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Backyard.Position = UDim2.new(0, 0, 0.929675579, 0)
+Backyard.Size = UDim2.new(0, 132, 0, 25)
+Backyard.Font = Enum.Font.Ubuntu
+Backyard.Text = "Backyard"
+Backyard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Backyard.TextSize = 14.000
+Backyard.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1.46531558, 3.59860277, 168.901642, -0.999405503, -3.12760218e-09, 0.0344759896, -1.70514092e-09, 1, 4.12888781e-08, -0.0344759896, 4.12055456e-08, -0.999405503)
+end)
+--Gui 3--
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Gui = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Extras = Instance.new("TextLabel")
+local Jump = Instance.new("TextButton")
+local Yield = Instance.new("TextButton")
+local Badge = Instance.new("TextButton")
+local Tool = Instance.new("TextButton")
+local Health = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Gui.Name = "Gui"
+Gui.Parent = ScreenGui
+Gui.BackgroundColor3 = Color3.fromRGB(0, 0, 250)
+Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gui.Position = UDim2.new(0.576222479, 0, 0.0176125243, 0)
+Gui.Size = UDim2.new(0, 132, 0, 280)
+Gui.Active = true
+Gui.Draggable = true
+
+Label.Name = "Label"
+Label.Parent = Gui
+Label.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label.Size = UDim2.new(0, 132, 0, 50)
+Label.Font = Enum.Font.Ubuntu
+Label.Text = "Daycare 2 [Story]"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextSize = 14.000
+
+Extras.Name = "Extras"
+Extras.Parent = Gui
+Extras.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Extras.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Extras.Position = UDim2.new(0, 0, 0.203187004, 0)
+Extras.Size = UDim2.new(0, 132, 0, 19)
+Extras.Font = Enum.Font.Ubuntu
+Extras.Text = "Extras"
+Extras.TextColor3 = Color3.fromRGB(0, 0, 0)
+Extras.TextSize = 14.000
+
+Jump.Name = "Jump"
+Jump.Parent = Gui
+Jump.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Jump.Position = UDim2.new(0, 0, 0.323321521, 0)
+Jump.Size = UDim2.new(0, 132, 0, 25)
+Jump.Font = Enum.Font.Ubuntu
+Jump.Text = "Infinte Jump"
+Jump.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jump.TextSize = 14.000
+Jump.MouseButton1Down:connect(function()
+	game:GetService("UserInputService").JumpRequest:connect(function()
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")		
+	end)
+end)
+
+Yield.Name = "Yield"
+Yield.Parent = Gui
+Yield.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Yield.Position = UDim2.new(0, 0, 0.450988173, 0)
+Yield.Size = UDim2.new(0, 132, 0, 25)
+Yield.Font = Enum.Font.Ubuntu
+Yield.Text = "Infinte Yield"
+Yield.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yield.TextSize = 14.000
+Yield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
+end)
+
+Badge.Name = "Badge"
+Badge.Parent = Gui
+Badge.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Badge.Position = UDim2.new(0, 0, 0.693988144, 0)
+Badge.Size = UDim2.new(0, 132, 0, 25)
+Badge.Font = Enum.Font.Ubuntu
+Badge.Text = "Summer Quest Badge"
+Badge.TextColor3 = Color3.fromRGB(0, 0, 0)
+Badge.TextSize = 14.000
+Badge.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "CompletedSummerEvent",
+
+	}
+
+	game:GetService("ReplicatedStorage").Modules.Event.serverRf:InvokeServer(unpack(args))
+end)
+
+Tool.Name = "Tool"
+Tool.Parent = Gui
+Tool.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Tool.Position = UDim2.new(0, 0, 0.822670698, 0)
+Tool.Size = UDim2.new(0, 132, 0, 25)
+Tool.Font = Enum.Font.Ubuntu
+Tool.Text = "Click to teleport (Tool)"
+Tool.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tool.TextSize = 14.000
+Tool.MouseButton1Down:connect(function()
+	player1=game.Players.LocalPlayer
+
+	q=Instance.new('HopperBin', player1.Backpack)
+	q.Name = 'Click Teleport'
+
+
+	bin = q
+
+
+
+	function teleportPlayer(pos)
+		local player = game.Players.LocalPlayer
+		if player == nil or player.Character == nil then return end
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(pos.x, pos.y + 7, pos.z))
+	end
+
+
+	enabled = true
+	function onButton1Down(mouse)
+		if not enabled then
+			return
+		end
+
+		local player = game.Players.LocalPlayer
+		if player == nil then return end
+
+
+		enabled = false
+		local cf = mouse.Hit
+		local v = cf.lookVector
+
+		teleportPlayer(cf.p)
+
+		wait()
+		enabled = true
+
+	end
+
+	function onSelected(mouse)
+		mouse.Icon = "rbxasset://textures\\ArrowCursor.png"
+		mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+	end
+
+	bin.Selected:connect(onSelected)
+end)
+
+Health.Name = "Health"
+Health.Parent = Gui
+Health.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Health.Position = UDim2.new(0, 0, 0.573210359, 0)
+Health.Size = UDim2.new(0, 132, 0, 25)
+Health.Font = Enum.Font.Ubuntu
+Health.Text = "Delete Tool"
+Health.TextColor3 = Color3.fromRGB(0, 0, 0)
+Health.TextSize = 14.000
+Health.MouseButton1Down:connect(function()
+local a=Instance.new("Tool")a.RequiresHandle=false;a.Name="Delete"local b=game.Players.LocalPlayer;a.Parent=b:WaitForChild("Backpack")local c=b:GetMouse()local d=false;local e=Instance.new("SelectionBox")e.Color3=Color3.new(0,0.6,0.6,6)e.Parent=b.PlayerGui;local c=b:GetMouse()local e=Instance.new("SelectionBox")e.Color3=Color3.new(0,0.6,0.6,6)e.Parent=b.PlayerGui;e.Name="derp"c.Move:connect(function()if d then local f=c.Target;if not f then e.Adornee=nil else if f:IsA("BasePart")then e.Adornee=f else e.Adornee=nil end end end end)a.Equipped:Connect(function()d=true end)a.Unequipped:Connect(function()e.Adornee=nil;d=false end)a.Activated:Connect(function()if e.Adornee then local g=Instance.new("Explosion")g.Parent=game.Workspace;g.Position=e.Adornee.Position;g.BlastPressure=0;local h=Instance.new("Sound")h.SoundId="http://www.roblox.com/asset/?id=315775189"h.Parent=game.Workspace;h:Play()e.Adornee:Destroy()e.Adornee=nil end end)
+end)
+
+--Gui 2--
+
+ScreenGui_3.Parent = game.CoreGui
+
+Gui_3.Name = "Gui"
+Gui_3.Parent = ScreenGui_3
+Gui_3.BackgroundColor3 = Color3.fromRGB(0, 0, 250)
+Gui_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gui_3.Position = UDim2.new(0.724, 0,0.018, 0)
+	Gui_3.Size = UDim2.new(0, 132, 0, 250)
+Gui_3.Active = true
+Gui_3.Draggable = true
+
+Label_3.Name = "Label"
+Label_3.Parent = Gui_3
+Label_3.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Label_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label_3.Size = UDim2.new(0, 132, 0, 50)
+Label_3.Font = Enum.Font.Ubuntu
+Label_3.Text = "Daycare 2 [Story]"
+Label_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_3.TextSize = 14.000
+
+Foods.Name = "Foods"
+Foods.Parent = Gui_3
+Foods.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Foods.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Foods.Position = UDim2.new(0, 0, 0.226202875, 0)
+Foods.Size = UDim2.new(0, 132, 0, 19)
+Foods.Font = Enum.Font.Ubuntu
+Foods.Text = "Foods"
+Foods.TextColor3 = Color3.fromRGB(0, 0, 0)
+Foods.TextSize = 14.000
+
+Pizza.Name = "Pizza"
+Pizza.Parent = Gui_3
+Pizza.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Pizza.Position = UDim2.new(0, 0, 0.363797694, 0)
+Pizza.Size = UDim2.new(0, 132, 0, 25)
+Pizza.Font = Enum.Font.Ubuntu
+Pizza.Text = "Pizza"
+Pizza.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pizza.TextSize = 14.000
+Pizza.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "FoodChoice",
+		[2] = "Pizza"
+	}
+
+	game:GetService("ReplicatedStorage").Modules.Event.serverRf:InvokeServer(unpack(args))
+end)
+
+Sandwich.Name = "Sandwich"
+Sandwich.Parent = Gui_3
+Sandwich.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Sandwich.Position = UDim2.new(0, 0, 0.524797678, 0)
+Sandwich.Size = UDim2.new(0, 132, 0, 25)
+Sandwich.Font = Enum.Font.Ubuntu
+Sandwich.Text = "Sandwich"
+Sandwich.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sandwich.TextSize = 14.000
+Sandwich.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "FoodChoice",
+		[2] = "Sandwich"
+	}
+
+	game:GetService("ReplicatedStorage").Modules.Event.serverRf:InvokeServer(unpack(args))
+end)
+
+Chicken.Name = "Chicken"
+Chicken.Parent = Gui_3
+Chicken.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Chicken.Position = UDim2.new(0, 0, 0.692797661, 0)
+Chicken.Size = UDim2.new(0, 132, 0, 25)
+Chicken.Font = Enum.Font.Ubuntu
+Chicken.Text = "Chicken"
+Chicken.TextColor3 = Color3.fromRGB(0, 0, 0)
+Chicken.TextSize = 14.000
+Chicken.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "FoodChoice",
+		[2] = "Chicken"
+	}
+
+	game:GetService("ReplicatedStorage").Modules.Event.serverRf:InvokeServer(unpack(args))
+end)
+
+Burger.Name = "Burger"
+Burger.Parent = Gui_3
+Burger.BackgroundColor3 = Color3.fromRGB(223, 111, 255)
+Burger.Position = UDim2.new(0, 0, 0.856797695, 0)
+Burger.Size = UDim2.new(0, 132, 0, 25)
+Burger.Font = Enum.Font.Ubuntu
+Burger.Text = "Burger"
+Burger.TextColor3 = Color3.fromRGB(0, 0, 0)
+Burger.TextSize = 14.000
+Burger.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "FoodChoice",
+		[2] = "Burger"
+	}
+
+	game:GetService("ReplicatedStorage").Modules.Event.serverRf:InvokeServer(unpack(args))
+end)
