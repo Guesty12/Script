@@ -38,6 +38,7 @@ local Burger = Instance.new("TextButton")
 local ScreenGui = Instance.new("ScreenGui")
 local Gui = Instance.new("Frame")
 local Label = Instance.new("TextLabel")
+local UIC1 = Instance.new("UICorner") 
 local Teleports = Instance.new("TextLabel")
 local Daycare = Instance.new("TextButton")
 local Forest = Instance.new("TextButton")
@@ -73,6 +74,8 @@ Label.Font = Enum.Font.Ubuntu
 Label.Text = "Daycare 2 [Story]"
 Label.TextColor3 = Color3.fromRGB(0, 0, 0)
 Label.TextSize = 14.000
+
+UIC1.Parent = Gui
 
 Teleports.Name = "Teleports"
 Teleports.Parent = Gui
@@ -238,6 +241,7 @@ end)
 local ScreenGui = Instance.new("ScreenGui")
 local Gui = Instance.new("Frame")
 local Label = Instance.new("TextLabel")
+local UIC1 = Instance.new("UICorner")
 local Extras = Instance.new("TextLabel")
 local Jump = Instance.new("TextButton")
 local Yield = Instance.new("TextButton")
@@ -267,6 +271,8 @@ Label.Font = Enum.Font.Ubuntu
 Label.Text = "Daycare 2 [Story]"
 Label.TextColor3 = Color3.fromRGB(0, 0, 0)
 Label.TextSize = 14.000
+
+UIC1.Parent = Gui
 
 Extras.Name = "Extras"
 Extras.Parent = Gui
@@ -396,6 +402,8 @@ end)
 
 --Gui 2--
 
+local UIC1 = Instance.new("UICorner")
+
 ScreenGui_3.Parent = game.CoreGui
 
 Gui_3.Name = "Gui"
@@ -406,6 +414,8 @@ Gui_3.Position = UDim2.new(0.724, 0,0.018, 0)
 	Gui_3.Size = UDim2.new(0, 132, 0, 250)
 Gui_3.Active = true
 Gui_3.Draggable = true
+
+UIC1.Parent = Gui_3
 
 Label_3.Name = "Label"
 Label_3.Parent = Gui_3
